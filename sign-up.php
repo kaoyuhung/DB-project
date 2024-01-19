@@ -45,9 +45,7 @@ $_SESSION['Authenticated'] = false
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
-
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -60,14 +58,11 @@ $_SESSION['Authenticated'] = false
 	<![endif]-->
 
 	</head>
+
 	<body>
-	
 		<div class="container">
-		
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
-					
-
 					<!-- Start Sign In Form -->
 					<form action="register.php" method = "post" class="fh5co-form animate-box" data-animate-effect="fadeIn">
 						<h2>Sign Up</h2>
@@ -109,10 +104,8 @@ $_SESSION['Authenticated'] = false
 						<div class="form-group">
 							<input type="submit" value="Sign Up" class="btn btn-primary">
 						</div>
-						
 					</form>
 					<!-- END Sign In Form -->
-
 				</div>
 			</div>
 			<div class="row" style="padding-top: 60px; clear: both;">
